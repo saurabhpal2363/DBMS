@@ -1,0 +1,21 @@
+CREATE DATABASE NewDatabase;
+USE NewDatabase;
+
+CREATE TABLE Student(
+	Sno INT PRIMARY KEY,
+    Name VARCHAR(50),
+    RollNo INT UNIQUE,
+    Age INT,
+    Course VARCHAR(15)
+);
+
+INSERT INTO Student
+VALUES
+(1, 'Saurabh', 240, 20, 'Btech'),
+(2, 'Adarsh', 261, 25, 'Btech'),
+(3, 'Adi', 541, 65, 'Btech'),
+(4, 'Abhinav', 658, 45, 'Btech');
+
+SELECT * FROM Student
+ORDER BY RollNo ASC;
+
