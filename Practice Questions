@@ -1,5 +1,9 @@
 Questions that practice in the classroom
 It's Queries were important for Exam purpose.
+1. JOINS
+2. CASCADING
+3. GROUP BY
+4. HAVING
 
 CREATE DATABASE NewDatabase;
 USE NewDatabase;
