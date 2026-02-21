@@ -18,10 +18,13 @@ CREATE TABLE Student(
 
 INSERT INTO Student
 VALUES
-(1, 'Saurabh', 240, 20, 'Btech'),
-(2, 'Adarsh', 261, 25, 'Btech'),
-(3, 'Adi', 541, 65, 'Btech'),
-(4, 'Abhinav', 658, 45, 'Btech');
+(1, 'Saurabh', 240, 20, 'Btech CSE'),
+(2, 'Adarsh', 261, 25, 'Btech CSE'),
+(3, 'Adi', 541, 65, 'Btech CSE'),
+(4, 'Abhinav', 658, 45, 'Btech CSE'),
+(5, 'Ashish', 684, 78, 'Btech CSE'),
+(6, 'Sujal', 845, 15, 'Btech AIML'),
+(7, 'Siraj', 458, 47, 'Btech Dept.')
 
 SELECT * FROM Student
 ORDER BY RollNo ASC;
