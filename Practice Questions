@@ -32,3 +32,27 @@ VALUES
 SELECT * FROM Student
 ORDER BY RollNo ASC;
 
+Ques. Find the name of all students with even rollNo
+SELECT name
+FROM Student
+WHERE RollNo IN (
+	SELECT RollNo
+	FROM Student
+	WHERE RollNo % 2 = 0
+);
+
+Ques. Find the max marks of the student that belongs to DELHI
+SELECT MAX(marks)
+FROM (
+	SELECT * FROM Student
+	WHERE city = "Delhi"
+) AS temp;
+
+# MySQL Views According to teacher
+CREATE VIEW view1 AS
+SELECT RollNo, name, marks 
+FROM Student;
+
+SELECT * FROM view1;
+
+DROP VIEW view1;
