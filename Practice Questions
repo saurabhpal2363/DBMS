@@ -7,6 +7,7 @@ It's Queries were important for Exam purpose.
 4. HAVING
 5. CHECK
 6. CLAUSES
+7. VIEW
 
 CREATE DATABASE NewDatabase;
 USE NewDatabase;
