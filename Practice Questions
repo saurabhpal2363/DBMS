@@ -8,6 +8,7 @@ It's Queries were important for Exam purpose.
 5. CHECK
 6. CLAUSES
 7. VIEW
+8. Arithmetic Expressions
 
 CREATE DATABASE NewDatabase;
 USE NewDatabase;
