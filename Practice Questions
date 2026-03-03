@@ -57,4 +57,5 @@ FROM Student;
 
 SELECT * FROM view1;
 
+# Delete View
 DROP VIEW view1;
