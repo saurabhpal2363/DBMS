@@ -14,6 +14,8 @@ It's Queries were important for Exam purpose.
 CREATE DATABASE NewDatabase;
 USE NewDatabase;
 
+DROP DATABASE NewDatabase;
+
 CREATE TABLE Student(
 	Sno INT PRIMARY KEY,
     Name VARCHAR(50),
@@ -21,6 +23,8 @@ CREATE TABLE Student(
     Age INT,
     Course VARCHAR(15)
 );
+
+DROP TABLE Student;
 
 INSERT INTO Student
 VALUES
