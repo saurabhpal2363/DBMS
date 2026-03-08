@@ -26,7 +26,7 @@ CREATE TABLE Student(
 
 DROP TABLE Student;
 
-INSERT INTO Student
+INSERT INTO Student(Sno, Name, RollNo, Age, Course)
 VALUES
 (1, 'Saurabh', 240, 20, 'Btech CSE'),
 (2, 'Adarsh', 261, 25, 'Btech CSE'),
