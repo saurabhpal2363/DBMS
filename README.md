@@ -1,1 +1,1 @@
-# DBMS in classroom
+# DBMS
