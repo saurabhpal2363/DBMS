@@ -1,11 +1,34 @@
-// Ques based on Ranking of score
-Ques. Problen No. 178
+Ques. Problem No. 184
+SELECT d.name AS Department, 
+       e.name AS Employee, 
+       e.salary AS Salary
+FROM Employee AS e
+JOIN Department AS d 
+ON e.departmentId = d.id
+WHERE e.salary = (
+    SELECT MAX(e2.salary)
+    FROM Employee e2
+    WHERE e2.departmentId = e.departmentId
+);
+
+Ques. Problem No. 176
+SELECT MAX(salary) AS SecondHighestSalary
+FROM Employee
+WHERE salary < (SELECT MAX(salary) FROM Employee);
+
+Ques. Problem No. 181
+SELECT e.name AS Employee
+FROM Employee e
+JOIN Employee m
+ON e.managerId = m.id
+WHERE e.salary > m.salary;
+
+Ques. Problem No. 178
 SELECT score,
 DENSE_RANK() OVER (ORDER BY score DESC)
 AS 'rank' FROM Scores;
 
-// Ques Based on Teacher table
-Ques. Problen No. 2356
+Ques. Problem No. 2356
 SELECT 
     teacher_id,
     COUNT(DISTINCT subject_id) AS cnt
