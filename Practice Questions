@@ -10,6 +10,7 @@ It's Queries were important for Exam purpose.
 7. VIEW
 8. Arithmetic Expressions
 9. Alter
+10. Delimeter
 
 CREATE DATABASE NewDatabase;
 USE NewDatabase;
