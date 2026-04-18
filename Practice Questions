@@ -13,6 +13,7 @@ It's Queries were important for Exam purpose as well as Interview.
 10. Delimeter
 11. Transactions
 12. B Tree
+13. B+ Tree
 
 CREATE DATABASE NewDatabase;
 USE NewDatabase;
